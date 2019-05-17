@@ -1,0 +1,41 @@
+.Quotes {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  li {
+    width: 18vw;
+    margin: 2em;
+    padding: 2rem;
+    background-color: rgb(255, 185, 35);
+    border-radius: 5px;
+    list-style-type: none;
+  }
+
+  section {
+    margin: auto;
+    width: 100%;
+    animation: insert 0.5s linear;
+
+  img {
+    object-fit: scale-down;
+    width: 15rem;
+    height: 15rem;
+    margin: auto;
+  }
+  
+  @keyframes insert {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 100%;
+    }
+  }
+}
+}
