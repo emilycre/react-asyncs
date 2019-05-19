@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Characters Component Renders Characters 1`] = `
+<ul
+  className="Characters"
+/>
+`;
